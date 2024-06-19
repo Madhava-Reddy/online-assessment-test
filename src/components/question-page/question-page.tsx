@@ -1,4 +1,6 @@
 import { Component, h, Prop, Event, EventEmitter, State } from '@stencil/core';
+import { state } from '../../store/store';
+import { Question } from '../../models/question-model';
 
 @Component({
   tag: 'question-page',
@@ -7,7 +9,7 @@ import { Component, h, Prop, Event, EventEmitter, State } from '@stencil/core';
 })
 export class QuestionPage {
   @Prop() section: string;
-  @Prop() question: any;
+  @Prop() question: Question;
   @Event() answerSelected: EventEmitter;
   @State() selectedOption: string;
 
@@ -26,7 +28,7 @@ export class QuestionPage {
       <div class="card mt-3 custom-card">
         <div class="card-body">
           <h5 class="card-title text-primary">{this.section} - {this.question.difficulty}</h5>
-          <p class="card-text">{this.question.id}. {this.question.text}</p>
+          <p class="card-text">{state.currentQuestionIndex + 1}. {this.question.text}</p>
           <div class="options-container">
             {this.question.options.map(option => (
               <div class="form-check mb-2">
