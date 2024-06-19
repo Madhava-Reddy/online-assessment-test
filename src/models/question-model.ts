@@ -1,6 +1,7 @@
 // question-models.ts
 
 export interface Question {
+  id : number;
   text: string;
   options: string[];
   correct_option: string;
