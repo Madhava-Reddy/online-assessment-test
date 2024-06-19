@@ -1,0 +1,36 @@
+@import '~bootstrap/dist/css/bootstrap.min.css';
+
+.custom-card {
+    background-color: #ffffff; /* White background for the card */
+    border: 1px solid #dee2e6; /* Light gray border similar to Bootstrap card */
+    border-radius: 10px; /* Slightly rounded corners */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+  }
+  
+  .custom-card .card-body {
+    padding: 20px;
+  }
+  
+  .custom-card .card-title {
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  .custom-card .card-text {
+    font-size: 1rem;
+    margin-bottom: 20px;
+  }
+  
+  .custom-card .options-container {
+    margin-bottom: 20px;
+  }
+  
+  .custom-card .form-check-input:checked {
+    background-color: #0d6efd; /* Bootstrap primary blue */
+    border-color: #0d6efd;
+  }
+  
+  .custom-card .btn-next {
+    width: 100%;
+  }
+  

@@ -6,56 +6,109 @@
  */
 import { HTMLStencilElement, JSXBase } from "@stencil/core/internal";
 export namespace Components {
-    interface MyComponent {
-        /**
-          * The first name
-         */
-        "first": string;
-        /**
-          * The last name
-         */
-        "last": string;
-        /**
-          * The middle name
-         */
-        "middle": string;
+    interface AppRoot {
+    }
+    interface QuestionPage {
+        "question": any;
+        "section": string;
+    }
+    interface StartPage {
+    }
+    interface SubmitPage {
+        "answers": any;
     }
 }
+export interface QuestionPageCustomEvent<T> extends CustomEvent<T> {
+    detail: T;
+    target: HTMLQuestionPageElement;
+}
+export interface StartPageCustomEvent<T> extends CustomEvent<T> {
+    detail: T;
+    target: HTMLStartPageElement;
+}
 declare global {
-    interface HTMLMyComponentElement extends Components.MyComponent, HTMLStencilElement {
+    interface HTMLAppRootElement extends Components.AppRoot, HTMLStencilElement {
     }
-    var HTMLMyComponentElement: {
-        prototype: HTMLMyComponentElement;
-        new (): HTMLMyComponentElement;
+    var HTMLAppRootElement: {
+        prototype: HTMLAppRootElement;
+        new (): HTMLAppRootElement;
+    };
+    interface HTMLQuestionPageElementEventMap {
+        "answerSelected": any;
+    }
+    interface HTMLQuestionPageElement extends Components.QuestionPage, HTMLStencilElement {
+        addEventListener<K extends keyof HTMLQuestionPageElementEventMap>(type: K, listener: (this: HTMLQuestionPageElement, ev: QuestionPageCustomEvent<HTMLQuestionPageElementEventMap[K]>) => any, options?: boolean | AddEventListenerOptions): void;
+        addEventListener<K extends keyof DocumentEventMap>(type: K, listener: (this: Document, ev: DocumentEventMap[K]) => any, options?: boolean | AddEventListenerOptions): void;
+        addEventListener<K extends keyof HTMLElementEventMap>(type: K, listener: (this: HTMLElement, ev: HTMLElementEventMap[K]) => any, options?: boolean | AddEventListenerOptions): void;
+        addEventListener(type: string, listener: EventListenerOrEventListenerObject, options?: boolean | AddEventListenerOptions): void;
+        removeEventListener<K extends keyof HTMLQuestionPageElementEventMap>(type: K, listener: (this: HTMLQuestionPageElement, ev: QuestionPageCustomEvent<HTMLQuestionPageElementEventMap[K]>) => any, options?: boolean | EventListenerOptions): void;
+        removeEventListener<K extends keyof DocumentEventMap>(type: K, listener: (this: Document, ev: DocumentEventMap[K]) => any, options?: boolean | EventListenerOptions): void;
+        removeEventListener<K extends keyof HTMLElementEventMap>(type: K, listener: (this: HTMLElement, ev: HTMLElementEventMap[K]) => any, options?: boolean | EventListenerOptions): void;
+        removeEventListener(type: string, listener: EventListenerOrEventListenerObject, options?: boolean | EventListenerOptions): void;
+    }
+    var HTMLQuestionPageElement: {
+        prototype: HTMLQuestionPageElement;
+        new (): HTMLQuestionPageElement;
+    };
+    interface HTMLStartPageElementEventMap {
+        "start": any;
+    }
+    interface HTMLStartPageElement extends Components.StartPage, HTMLStencilElement {
+        addEventListener<K extends keyof HTMLStartPageElementEventMap>(type: K, listener: (this: HTMLStartPageElement, ev: StartPageCustomEvent<HTMLStartPageElementEventMap[K]>) => any, options?: boolean | AddEventListenerOptions): void;
+        addEventListener<K extends keyof DocumentEventMap>(type: K, listener: (this: Document, ev: DocumentEventMap[K]) => any, options?: boolean | AddEventListenerOptions): void;
+        addEventListener<K extends keyof HTMLElementEventMap>(type: K, listener: (this: HTMLElement, ev: HTMLElementEventMap[K]) => any, options?: boolean | AddEventListenerOptions): void;
+        addEventListener(type: string, listener: EventListenerOrEventListenerObject, options?: boolean | AddEventListenerOptions): void;
+        removeEventListener<K extends keyof HTMLStartPageElementEventMap>(type: K, listener: (this: HTMLStartPageElement, ev: StartPageCustomEvent<HTMLStartPageElementEventMap[K]>) => any, options?: boolean | EventListenerOptions): void;
+        removeEventListener<K extends keyof DocumentEventMap>(type: K, listener: (this: Document, ev: DocumentEventMap[K]) => any, options?: boolean | EventListenerOptions): void;
+        removeEventListener<K extends keyof HTMLElementEventMap>(type: K, listener: (this: HTMLElement, ev: HTMLElementEventMap[K]) => any, options?: boolean | EventListenerOptions): void;
+        removeEventListener(type: string, listener: EventListenerOrEventListenerObject, options?: boolean | EventListenerOptions): void;
+    }
+    var HTMLStartPageElement: {
+        prototype: HTMLStartPageElement;
+        new (): HTMLStartPageElement;
+    };
+    interface HTMLSubmitPageElement extends Components.SubmitPage, HTMLStencilElement {
+    }
+    var HTMLSubmitPageElement: {
+        prototype: HTMLSubmitPageElement;
+        new (): HTMLSubmitPageElement;
     };
     interface HTMLElementTagNameMap {
-        "my-component": HTMLMyComponentElement;
+        "app-root": HTMLAppRootElement;
+        "question-page": HTMLQuestionPageElement;
+        "start-page": HTMLStartPageElement;
+        "submit-page": HTMLSubmitPageElement;
     }
 }
 declare namespace LocalJSX {
-    interface MyComponent {
-        /**
-          * The first name
-         */
-        "first"?: string;
-        /**
-          * The last name
-         */
-        "last"?: string;
-        /**
-          * The middle name
-         */
-        "middle"?: string;
+    interface AppRoot {
+    }
+    interface QuestionPage {
+        "onAnswerSelected"?: (event: QuestionPageCustomEvent<any>) => void;
+        "question"?: any;
+        "section"?: string;
+    }
+    interface StartPage {
+        "onStart"?: (event: StartPageCustomEvent<any>) => void;
+    }
+    interface SubmitPage {
+        "answers"?: any;
     }
     interface IntrinsicElements {
-        "my-component": MyComponent;
+        "app-root": AppRoot;
+        "question-page": QuestionPage;
+        "start-page": StartPage;
+        "submit-page": SubmitPage;
     }
 }
 export { LocalJSX as JSX };
 declare module "@stencil/core" {
     export namespace JSX {
         interface IntrinsicElements {
-            "my-component": LocalJSX.MyComponent & JSXBase.HTMLAttributes<HTMLMyComponentElement>;
+            "app-root": LocalJSX.AppRoot & JSXBase.HTMLAttributes<HTMLAppRootElement>;
+            "question-page": LocalJSX.QuestionPage & JSXBase.HTMLAttributes<HTMLQuestionPageElement>;
+            "start-page": LocalJSX.StartPage & JSXBase.HTMLAttributes<HTMLStartPageElement>;
+            "submit-page": LocalJSX.SubmitPage & JSXBase.HTMLAttributes<HTMLSubmitPageElement>;
         }
     }
 }

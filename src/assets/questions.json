@@ -1,0 +1,1139 @@
+{
+  "logical": [
+    {
+      "id": 1,
+      "text": "What is 10 + 20?",
+      "options": [
+        "20",
+        "30",
+        "40",
+        "50"
+      ],
+      "correct_option": "30",
+      "difficulty": "Easy"
+    },
+    {
+      "id": 2,
+      "text": "What is 15 + 5?",
+      "options": [
+        "10",
+        "20",
+        "25",
+        "30"
+      ],
+      "correct_option": "20",
+      "difficulty": "Easy"
+    },
+    {
+      "id": 3,
+      "text": "What is 7 + 3?",
+      "options": [
+        "8",
+        "9",
+        "10",
+        "11"
+      ],
+      "correct_option": "10",
+      "difficulty": "Easy"
+    },
+    {
+      "id": 4,
+      "text": "What is 8 + 12?",
+      "options": [
+        "18",
+        "19",
+        "20",
+        "21"
+      ],
+      "correct_option": "20",
+      "difficulty": "Easy"
+    },
+    {
+      "id": 5,
+      "text": "What is 6 + 14?",
+      "options": [
+        "19",
+        "20",
+        "21",
+        "22"
+      ],
+      "correct_option": "20",
+      "difficulty": "Easy"
+    },
+    {
+      "id": 6,
+      "text": "What is 4 + 16?",
+      "options": [
+        "18",
+        "19",
+        "20",
+        "21"
+      ],
+      "correct_option": "20",
+      "difficulty": "Easy"
+    },
+    {
+      "id": 7,
+      "text": "What is 9 + 11?",
+      "options": [
+        "18",
+        "19",
+        "20",
+        "21"
+      ],
+      "correct_option": "20",
+      "difficulty": "Easy"
+    },
+    {
+      "id": 8,
+      "text": "What is 13 + 7?",
+      "options": [
+        "18",
+        "19",
+        "20",
+        "21"
+      ],
+      "correct_option": "20",
+      "difficulty": "Easy"
+    },
+    {
+      "id": 9,
+      "text": "What is 2 + 18?",
+      "options": [
+        "18",
+        "19",
+        "20",
+        "21"
+      ],
+      "correct_option": "20",
+      "difficulty": "Easy"
+    },
+    {
+      "id": 10,
+      "text": "What is 1 + 19?",
+      "options": [
+        "18",
+        "19",
+        "20",
+        "21"
+      ],
+      "correct_option": "20",
+      "difficulty": "Easy"
+    },
+    {
+      "id": 11,
+      "text": "What is 20 * 3?",
+      "options": [
+        "50",
+        "60",
+        "70",
+        "80"
+      ],
+      "correct_option": "60",
+      "difficulty": "Moderate"
+    },
+    {
+      "id": 12,
+      "text": "What is 5 * 6?",
+      "options": [
+        "20",
+        "25",
+        "30",
+        "35"
+      ],
+      "correct_option": "30",
+      "difficulty": "Moderate"
+    },
+    {
+      "id": 13,
+      "text": "What is 7 * 8?",
+      "options": [
+        "48",
+        "54",
+        "56",
+        "63"
+      ],
+      "correct_option": "56",
+      "difficulty": "Moderate"
+    },
+    {
+      "id": 14,
+      "text": "What is 9 * 7?",
+      "options": [
+        "54",
+        "56",
+        "63",
+        "72"
+      ],
+      "correct_option": "63",
+      "difficulty": "Moderate"
+    },
+    {
+      "id": 15,
+      "text": "What is 4 * 9?",
+      "options": [
+        "32",
+        "36",
+        "40",
+        "44"
+      ],
+      "correct_option": "36",
+      "difficulty": "Moderate"
+    },
+    {
+      "id": 16,
+      "text": "What is 8 * 8?",
+      "options": [
+        "54",
+        "56",
+        "62",
+        "64"
+      ],
+      "correct_option": "64",
+      "difficulty": "Moderate"
+    },
+    {
+      "id": 17,
+      "text": "What is 6 * 6?",
+      "options": [
+        "30",
+        "32",
+        "36",
+        "40"
+      ],
+      "correct_option": "36",
+      "difficulty": "Moderate"
+    },
+    {
+      "id": 18,
+      "text": "What is 7 * 5?",
+      "options": [
+        "30",
+        "32",
+        "34",
+        "35"
+      ],
+      "correct_option": "35",
+      "difficulty": "Moderate"
+    },
+    {
+      "id": 19,
+      "text": "What is 9 * 5?",
+      "options": [
+        "40",
+        "45",
+        "50",
+        "55"
+      ],
+      "correct_option": "45",
+      "difficulty": "Moderate"
+    },
+    {
+      "id": 20,
+      "text": "What is 6 * 7?",
+      "options": [
+        "36",
+        "40",
+        "42",
+        "45"
+      ],
+      "correct_option": "42",
+      "difficulty": "Moderate"
+    },
+    {
+      "id": 21,
+      "text": "What is 100 / 25?",
+      "options": [
+        "2",
+        "3",
+        "4",
+        "5"
+      ],
+      "correct_option": "4",
+      "difficulty": "Hard"
+    },
+    {
+      "id": 22,
+      "text": "What is 200 / 50?",
+      "options": [
+        "2",
+        "3",
+        "4",
+        "5"
+      ],
+      "correct_option": "4",
+      "difficulty": "Hard"
+    },
+    {
+      "id": 23,
+      "text": "What is 300 / 100?",
+      "options": [
+        "2",
+        "3",
+        "4",
+        "5"
+      ],
+      "correct_option": "3",
+      "difficulty": "Hard"
+    },
+    {
+      "id": 24,
+      "text": "What is 400 / 200?",
+      "options": [
+        "2",
+        "3",
+        "4",
+        "5"
+      ],
+      "correct_option": "2",
+      "difficulty": "Hard"
+    },
+    {
+      "id": 25,
+      "text": "What is 600 / 150?",
+      "options": [
+        "2",
+        "3",
+        "4",
+        "5"
+      ],
+      "correct_option": "4",
+      "difficulty": "Hard"
+    },
+    {
+      "id": 26,
+      "text": "What is 700 / 140?",
+      "options": [
+        "4",
+        "5",
+        "6",
+        "7"
+      ],
+      "correct_option": "5",
+      "difficulty": "Hard"
+    },
+    {
+      "id": 27,
+      "text": "What is 800 / 100?",
+      "options": [
+        "7",
+        "8",
+        "9",
+        "10"
+      ],
+      "correct_option": "8",
+      "difficulty": "Hard"
+    },
+    {
+      "id": 28,
+      "text": "What is 900 / 300?",
+      "options": [
+        "2",
+        "3",
+        "4",
+        "5"
+      ],
+      "correct_option": "3",
+      "difficulty": "Hard"
+    },
+    {
+      "id": 29,
+      "text": "What is 1000 / 250?",
+      "options": [
+        "3",
+        "4",
+        "5",
+        "6"
+      ],
+      "correct_option": "4",
+      "difficulty": "Hard"
+    },
+    {
+      "id": 30,
+      "text": "What is 1100 / 220?",
+      "options": [
+        "3",
+        "4",
+        "5",
+        "6"
+      ],
+      "correct_option": "5",
+      "difficulty": "Hard"
+    },
+    {
+      "id": 31,
+      "text": "What is 12 + 18?",
+      "options": [
+        "25",
+        "26",
+        "28",
+        "30"
+      ],
+      "correct_option": "30",
+      "difficulty": "Easy"
+    },
+    {
+      "id": 32,
+      "text": "What is 14 + 16?",
+      "options": [
+        "28",
+        "29",
+        "30",
+        "31"
+      ],
+      "correct_option": "30",
+      "difficulty": "Easy"
+    },
+    {
+      "id": 33,
+      "text": "What is 11 + 19?",
+      "options": [
+        "29",
+        "30",
+        "31",
+        "32"
+      ],
+      "correct_option": "30",
+      "difficulty": "Easy"
+    },
+    {
+      "id": 34,
+      "text": "What is 13 + 17?",
+      "options": [
+        "29",
+        "30",
+        "31",
+        "32"
+      ],
+      "correct_option": "30",
+      "difficulty": "Easy"
+    },
+    {
+      "id": 35,
+      "text": "What is 10 + 30?",
+      "options": [
+        "38",
+        "39",
+        "40",
+        "41"
+      ],
+      "correct_option": "40",
+      "difficulty": "Easy"
+    },
+    {
+      "id": 36,
+      "text": "What is 25 + 25?",
+      "options": [
+        "45",
+        "50",
+        "55",
+        "60"
+      ],
+      "correct_option": "50",
+      "difficulty": "Easy"
+    },
+    {
+      "id": 37,
+      "text": "What is 20 + 30?",
+      "options": [
+        "40",
+        "45",
+        "50",
+        "55"
+      ],
+      "correct_option": "50",
+      "difficulty": "Easy"
+    },
+    {
+      "id": 38,
+      "text": "What is 15 + 25?",
+      "options": [
+        "35",
+        "40",
+        "45",
+        "50"
+      ],
+      "correct_option": "40",
+      "difficulty": "Easy"
+    },
+    {
+      "id": 39,
+      "text": "What is 12 + 28?",
+      "options": [
+        "35",
+        "38",
+        "40",
+        "42"
+      ],
+      "correct_option": "40",
+      "difficulty": "Easy"
+    },
+    {
+      "id": 40,
+      "text": "What is 19 + 21?",
+      "options": [
+        "39",
+        "40",
+        "41",
+        "42"
+      ],
+      "correct_option": "40",
+      "difficulty": "Easy"
+    },
+    {
+      "id": 41,
+      "text": "What is 15 * 2?",
+      "options": [
+        "25",
+        "28",
+        "30",
+        "35"
+      ],
+      "correct_option": "30",
+      "difficulty": "Moderate"
+    },
+    {
+      "id": 42,
+      "text": "What is 12 * 4?",
+      "options": [
+        "40",
+        "42",
+        "44",
+        "48"
+      ],
+      "correct_option": "48",
+      "difficulty": "Moderate"
+    },
+    {
+      "id": 43,
+      "text": "What is 13 * 3?",
+      "options": [
+        "36",
+        "38",
+        "39",
+        "42"
+      ],
+      "correct_option": "39",
+      "difficulty": "Moderate"
+    },
+    {
+      "id": 44,
+      "text": "What is 18 * 2?",
+      "options": [
+        "32",
+        "34",
+        "36",
+        "38"
+      ],
+      "correct_option": "36",
+      "difficulty": "Moderate"
+    },
+    {
+      "id": 45,
+      "text": "What is 17 * 3?",
+      "options": [
+        "50",
+        "51",
+        "52",
+        "54"
+      ],
+      "correct_option": "51",
+      "difficulty": "Moderate"
+    },
+    {
+      "id": 46,
+      "text": "What is 14 * 4?",
+      "options": [
+        "50",
+        "52",
+        "54",
+        "56"
+      ],
+      "correct_option": "56",
+      "difficulty": "Moderate"
+    },
+    {
+      "id": 47,
+      "text": "What is 19 * 2?",
+      "options": [
+        "36",
+        "38",
+        "40",
+        "42"
+      ],
+      "correct_option": "38",
+      "difficulty": "Moderate"
+    },
+    {
+      "id": 48,
+      "text": "What is 16 * 3?",
+      "options": [
+        "46",
+        "48",
+        "50",
+        "52"
+      ],
+      "correct_option": "48",
+      "difficulty": "Moderate"
+    },
+    {
+      "id": 49,
+      "text": "What is 15 * 3?",
+      "options": [
+        "40",
+        "42",
+        "44",
+        "45"
+      ],
+      "correct_option": "45",
+      "difficulty": "Moderate"
+    },
+    {
+      "id": 50,
+      "text": "What is 20 * 4?",
+      "options": [
+        "70",
+        "75",
+        "80",
+        "85"
+      ],
+      "correct_option": "80",
+      "difficulty": "Moderate"
+    }
+  ],
+  "psychometric": [
+    {
+      "id": 51,
+      "text": "I enjoy social gatherings.",
+      "options": [
+        "Strongly Disagree",
+        "Disagree",
+        "Neutral",
+        "Agree",
+        "Strongly Agree"
+      ],
+      "correct_option": "Agree",
+      "difficulty": "Easy"
+    },
+    {
+      "id": 52,
+      "text": "I am detail-oriented.",
+      "options": [
+        "Strongly Disagree",
+        "Disagree",
+        "Neutral",
+        "Agree",
+        "Strongly Agree"
+      ],
+      "correct_option": "Agree",
+      "difficulty": "Easy"
+    },
+    {
+      "id": 53,
+      "text": "I prefer to follow a schedule.",
+      "options": [
+        "Strongly Disagree",
+        "Disagree",
+        "Neutral",
+        "Agree",
+        "Strongly Agree"
+      ],
+      "correct_option": "Agree",
+      "difficulty": "Moderate"
+    },
+    {
+      "id": 54,
+      "text": "I often feel overwhelmed by emotions.",
+      "options": [
+        "Strongly Disagree",
+        "Disagree",
+        "Neutral",
+        "Agree",
+        "Strongly Agree"
+      ],
+      "correct_option": "Disagree",
+      "difficulty": "Moderate"
+    },
+    {
+      "id": 55,
+      "text": "I enjoy working in teams.",
+      "options": [
+        "Strongly Disagree",
+        "Disagree",
+        "Neutral",
+        "Agree",
+        "Strongly Agree"
+      ],
+      "correct_option": "Agree",
+      "difficulty": "Easy"
+    },
+    {
+      "id": 56,
+      "text": "I am good at resolving conflicts.",
+      "options": [
+        "Strongly Disagree",
+        "Disagree",
+        "Neutral",
+        "Agree",
+        "Strongly Agree"
+      ],
+      "correct_option": "Agree",
+      "difficulty": "Moderate"
+    },
+    {
+      "id": 57,
+      "text": "I am comfortable with public speaking.",
+      "options": [
+        "Strongly Disagree",
+        "Disagree",
+        "Neutral",
+        "Agree",
+        "Strongly Agree"
+      ],
+      "correct_option": "Agree",
+      "difficulty": "Moderate"
+    },
+    {
+      "id": 58,
+      "text": "I enjoy trying new things.",
+      "options": [
+        "Strongly Disagree",
+        "Disagree",
+        "Neutral",
+        "Agree",
+        "Strongly Agree"
+      ],
+      "correct_option": "Agree",
+      "difficulty": "Easy"
+    },
+    {
+      "id": 59,
+      "text": "I find it easy to empathize with others.",
+      "options": [
+        "Strongly Disagree",
+        "Disagree",
+        "Neutral",
+        "Agree",
+        "Strongly Agree"
+      ],
+      "correct_option": "Agree",
+      "difficulty": "Moderate"
+    },
+    {
+      "id": 60,
+      "text": "I prefer structured tasks over unstructured ones.",
+      "options": [
+        "Strongly Disagree",
+        "Disagree",
+        "Neutral",
+        "Agree",
+        "Strongly Agree"
+      ],
+      "correct_option": "Agree",
+      "difficulty": "Moderate"
+    },
+    {
+      "id": 61,
+      "text": "I get bored easily.",
+      "options": [
+        "Strongly Disagree",
+        "Disagree",
+        "Neutral",
+        "Agree",
+        "Strongly Agree"
+      ],
+      "correct_option": "Disagree",
+      "difficulty": "Easy"
+    },
+    {
+      "id": 62,
+      "text": "I like to plan my day.",
+      "options": [
+        "Strongly Disagree",
+        "Disagree",
+        "Neutral",
+        "Agree",
+        "Strongly Agree"
+      ],
+      "correct_option": "Agree",
+      "difficulty": "Moderate"
+    },
+    {
+      "id": 63,
+      "text": "I enjoy learning new skills.",
+      "options": [
+        "Strongly Disagree",
+        "Disagree",
+        "Neutral",
+        "Agree",
+        "Strongly Agree"
+      ],
+      "correct_option": "Agree",
+      "difficulty": "Easy"
+    },
+    {
+      "id": 64,
+      "text": "I often feel anxious.",
+      "options": [
+        "Strongly Disagree",
+        "Disagree",
+        "Neutral",
+        "Agree",
+        "Strongly Agree"
+      ],
+      "correct_option": "Disagree",
+      "difficulty": "Hard"
+    },
+    {
+      "id": 65,
+      "text": "I prefer working alone.",
+      "options": [
+        "Strongly Disagree",
+        "Disagree",
+        "Neutral",
+        "Agree",
+        "Strongly Agree"
+      ],
+      "correct_option": "Disagree",
+      "difficulty": "Hard"
+    },
+    {
+      "id": 66,
+      "text": "I often feel stressed.",
+      "options": [
+        "Strongly Disagree",
+        "Disagree",
+        "Neutral",
+        "Agree",
+        "Strongly Agree"
+      ],
+      "correct_option": "Disagree",
+      "difficulty": "Hard"
+    },
+    {
+      "id": 67,
+      "text": "I am open to feedback.",
+      "options": [
+        "Strongly Disagree",
+        "Disagree",
+        "Neutral",
+        "Agree",
+        "Strongly Agree"
+      ],
+      "correct_option": "Agree",
+      "difficulty": "Easy"
+    },
+    {
+      "id": 68,
+      "text": "I enjoy setting goals.",
+      "options": [
+        "Strongly Disagree",
+        "Disagree",
+        "Neutral",
+        "Agree",
+        "Strongly Agree"
+      ],
+      "correct_option": "Agree",
+      "difficulty": "Moderate"
+    },
+    {
+      "id": 69,
+      "text": "I am comfortable with ambiguity.",
+      "options": [
+        "Strongly Disagree",
+        "Disagree",
+        "Neutral",
+        "Agree",
+        "Strongly Agree"
+      ],
+      "correct_option": "Neutral",
+      "difficulty": "Hard"
+    },
+    {
+      "id": 70,
+      "text": "I prefer clear instructions.",
+      "options": [
+        "Strongly Disagree",
+        "Disagree",
+        "Neutral",
+        "Agree",
+        "Strongly Agree"
+      ],
+      "correct_option": "Agree",
+      "difficulty": "Moderate"
+    },
+    {
+      "id": 71,
+      "text": "I am good at multitasking.",
+      "options": [
+        "Strongly Disagree",
+        "Disagree",
+        "Neutral",
+        "Agree",
+        "Strongly Agree"
+      ],
+      "correct_option": "Agree",
+      "difficulty": "Easy"
+    },
+    {
+      "id": 72,
+      "text": "I get along well with others.",
+      "options": [
+        "Strongly Disagree",
+        "Disagree",
+        "Neutral",
+        "Agree",
+        "Strongly Agree"
+      ],
+      "correct_option": "Agree",
+      "difficulty": "Moderate"
+    },
+    {
+      "id": 73,
+      "text": "I am good at problem-solving.",
+      "options": [
+        "Strongly Disagree",
+        "Disagree",
+        "Neutral",
+        "Agree",
+        "Strongly Agree"
+      ],
+      "correct_option": "Agree",
+      "difficulty": "Easy"
+    },
+    {
+      "id": 74,
+      "text": "I prefer routine tasks.",
+      "options": [
+        "Strongly Disagree",
+        "Disagree",
+        "Neutral",
+        "Agree",
+        "Strongly Agree"
+      ],
+      "correct_option": "Neutral",
+      "difficulty": "Moderate"
+    },
+    {
+      "id": 75,
+      "text": "I am easily distracted.",
+      "options": [
+        "Strongly Disagree",
+        "Disagree",
+        "Neutral",
+        "Agree",
+        "Strongly Agree"
+      ],
+      "correct_option": "Disagree",
+      "difficulty": "Hard"
+    },
+    {
+      "id": 76,
+      "text": "I prefer to focus on one task at a time.",
+      "options": [
+        "Strongly Disagree",
+        "Disagree",
+        "Neutral",
+        "Agree",
+        "Strongly Agree"
+      ],
+      "correct_option": "Agree",
+      "difficulty": "Easy"
+    },
+    {
+      "id": 77,
+      "text": "I enjoy taking risks.",
+      "options": [
+        "Strongly Disagree",
+        "Disagree",
+        "Neutral",
+        "Agree",
+        "Strongly Agree"
+      ],
+      "correct_option": "Neutral",
+      "difficulty": "Hard"
+    },
+    {
+      "id": 78,
+      "text": "I am good at managing my time.",
+      "options": [
+        "Strongly Disagree",
+        "Disagree",
+        "Neutral",
+        "Agree",
+        "Strongly Agree"
+      ],
+      "correct_option": "Agree",
+      "difficulty": "Easy"
+    },
+    {
+      "id": 79,
+      "text": "I enjoy challenges.",
+      "options": [
+        "Strongly Disagree",
+        "Disagree",
+        "Neutral",
+        "Agree",
+        "Strongly Agree"
+      ],
+      "correct_option": "Agree",
+      "difficulty": "Moderate"
+    },
+    {
+      "id": 80,
+      "text": "I am a good listener.",
+      "options": [
+        "Strongly Disagree",
+        "Disagree",
+        "Neutral",
+        "Agree",
+        "Strongly Agree"
+      ],
+      "correct_option": "Agree",
+      "difficulty": "Easy"
+    },
+    {
+      "id": 81,
+      "text": "I am quick to adapt to new situations.",
+      "options": [
+        "Strongly Disagree",
+        "Disagree",
+        "Neutral",
+        "Agree",
+        "Strongly Agree"
+      ],
+      "correct_option": "Agree",
+      "difficulty": "Moderate"
+    },
+    {
+      "id": 82,
+      "text": "I am comfortable working under pressure.",
+      "options": [
+        "Strongly Disagree",
+        "Disagree",
+        "Neutral",
+        "Agree",
+        "Strongly Agree"
+      ],
+      "correct_option": "Agree",
+      "difficulty": "Hard"
+    },
+    {
+      "id": 83,
+      "text": "I often feel frustrated.",
+      "options": [
+        "Strongly Disagree",
+        "Disagree",
+        "Neutral",
+        "Agree",
+        "Strongly Agree"
+      ],
+      "correct_option": "Disagree",
+      "difficulty": "Hard"
+    },
+    {
+      "id": 84,
+      "text": "I enjoy setting personal goals.",
+      "options": [
+        "Strongly Disagree",
+        "Disagree",
+        "Neutral",
+        "Agree",
+        "Strongly Agree"
+      ],
+      "correct_option": "Agree",
+      "difficulty": "Moderate"
+    },
+    {
+      "id": 85,
+      "text": "I find it easy to stay organized.",
+      "options": [
+        "Strongly Disagree",
+        "Disagree",
+        "Neutral",
+        "Agree",
+        "Strongly Agree"
+      ],
+      "correct_option": "Agree",
+      "difficulty": "Easy"
+    },
+    {
+      "id": 86,
+      "text": "I am confident in my abilities.",
+      "options": [
+        "Strongly Disagree",
+        "Disagree",
+        "Neutral",
+        "Agree",
+        "Strongly Agree"
+      ],
+      "correct_option": "Agree",
+      "difficulty": "Moderate"
+    },
+    {
+      "id": 87,
+      "text": "I enjoy learning about new topics.",
+      "options": [
+        "Strongly Disagree",
+        "Disagree",
+        "Neutral",
+        "Agree",
+        "Strongly Agree"
+      ],
+      "correct_option": "Agree",
+      "difficulty": "Easy"
+    },
+    {
+      "id": 88,
+      "text": "I often feel demotivated.",
+      "options": [
+        "Strongly Disagree",
+        "Disagree",
+        "Neutral",
+        "Agree",
+        "Strongly Agree"
+      ],
+      "correct_option": "Disagree",
+      "difficulty": "Hard"
+    },
+    {
+      "id": 89,
+      "text": "I prefer to take initiative.",
+      "options": [
+        "Strongly Disagree",
+        "Disagree",
+        "Neutral",
+        "Agree",
+        "Strongly Agree"
+      ],
+      "correct_option": "Agree",
+      "difficulty": "Moderate"
+    },
+    {
+      "id": 90,
+      "text": "I find it difficult to manage my emotions.",
+      "options": [
+        "Strongly Disagree",
+        "Disagree",
+        "Neutral",
+        "Agree",
+        "Strongly Agree"
+      ],
+      "correct_option": "Disagree",
+      "difficulty": "Hard"
+    },
+    {
+      "id": 91,
+      "text": "I enjoy helping others.",
+      "options": [
+        "Strongly Disagree",
+        "Disagree",
+        "Neutral",
+        "Agree",
+        "Strongly Agree"
+      ],
+      "correct_option": "Agree",
+      "difficulty": "Easy"
+    }
+  ]
+}
